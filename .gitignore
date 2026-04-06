@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+*.env
+
+# Docker volumes (local)
+neo4j_data/
+neo4j_logs/
+
+# Build artifacts
+backend/eventlineage-server
+ui/dist/
+
+# Logs
+*.log
+
+# Go
+vendor/
+
+# Java SDK build
+sdk/java/target/
+sdk/java/*.class
+
+# Claude
+.claude/
+.metals/
